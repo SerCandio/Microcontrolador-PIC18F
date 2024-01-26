@@ -6,6 +6,8 @@ con algunas simulaciones hechas en Proteus y armados en placa PCB prototipo como
 
 Se explica dicha PCB con mayor detalle en el siguiente link : 
 
+<h2 dir="auto" tabindex="-1">Nota:</h2> Se incluye un ejemplo base donde se indica como configurar los "Configuration bits"
+
 <h2 dir="auto" tabindex="-1">HERRAMIENTAS NECESARIAS</h2>
 
 <B>1. Programador PICK3</B>
