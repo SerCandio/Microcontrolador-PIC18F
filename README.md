@@ -1,4 +1,4 @@
-# Microcontrolador-PIC18F
+# MICROCONTROLADOR PIC18F
 Programación en microcontrolador PIC18F45K50, con varias librerias y ejemplos , realizados en el entorno de desarrollo MPLABX v5.45 ; 
 con algunas simulaciones hechas en Proteus y armados en placa PCB prototipo como se muestra : 
 
