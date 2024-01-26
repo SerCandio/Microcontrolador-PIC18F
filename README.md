@@ -10,7 +10,8 @@ Se explica dicha PCB con mayor detalle en el siguiente link :
 
 <B>1. Programador PICK3</B>
 - https://www.microchip.com/en-us/development-tool/pg164130
-![image](https://github.com/SerCandio/Microcontrolador-PIC18F/assets/106831539/89a745db-a09f-4848-83d6-eb389164b874)
+
+![image](https://github.com/SerCandio/Microcontrolador-PIC18F/assets/106831539/3eb8feaf-ab85-4b22-bc24-be1a5a1fd0ea)
 
 
 <h2 dir="auto" tabindex="-1">DOCUMENTOS NECESARIOS</h2>
