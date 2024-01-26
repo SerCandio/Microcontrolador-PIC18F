@@ -1,1 +1,1 @@
-# PORT_IO Example
+# Ejemplo de GPIO y de la configuracion de los bits
