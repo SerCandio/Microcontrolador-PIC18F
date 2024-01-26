@@ -7,14 +7,13 @@ con algunas simulaciones hechas en Proteus y armados en placa PCB prototipo como
 Se explica dicha PCB con mayor detalle en el siguiente link : 
 
 # Herramientas de HW necesarias
-
 # 1. Programador PICK3
 - https://www.microchip.com/en-us/development-tool/pg164130
 ![PICKIT3](https://github.com/SerCandio/Microcontrolador-PIC18F/assets/106831539/79b7c3ea-d900-4dcd-ad3d-e94944990a69)
 
 
-# UTILITARIOS NECESARIOS
 
+# UTILITARIOS NECESARIOS
 # 1. IDE de Desarrollo MPLABX v5.45 (Entorno de Desarrollo)
 - https://ww1.microchip.com/downloads/en/DeviceDoc/MPLABX-v5.45-windows-installer.exe
 
@@ -24,8 +23,8 @@ Se explica dicha PCB con mayor detalle en el siguiente link :
 # 3. Software de Simulacion Proteus 8.10 SP0 Pro
 -
 
-# DOCUMENTOS NECESARIOS
 
+# DOCUMENTOS NECESARIOS
 # 1. Datasheeet pic18f45k50 (Microchip)
 - https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/PIC18F2X_45K50-30000684B.pdf
   
