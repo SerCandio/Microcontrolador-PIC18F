@@ -1,5 +1,5 @@
 # MICROCONTROLADOR PIC18F
-Programación en microcontrolador PIC18F45K50, con varias librerias y ejemplos , realizados en el entorno de desarrollo MPLABX v5.45 ; 
+Librerias para microcontrolador pic18f45k50 , para algunos perifericos externos y RTOS,  realizadas en el entorno de desarrollo MPLABX v5.45 ; 
 con algunas simulaciones hechas en Proteus y armados en placa PCB prototipo como se muestra : 
 
 ![Screenshot_20240126_111406_com huawei himovie overseas](https://github.com/SerCandio/Microcontrolador-PIC18F/assets/106831539/8ea3695e-99f9-4c77-9be9-508394b23255)
