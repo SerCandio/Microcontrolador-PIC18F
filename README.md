@@ -12,6 +12,7 @@ Se explica dicha PCB con mayor detalle en el siguiente link :
 - https://www.microchip.com/en-us/development-tool/pg164130
 ![PICKIT3](https://github.com/SerCandio/Microcontrolador-PIC18F/assets/106831539/79b7c3ea-d900-4dcd-ad3d-e94944990a69)
 
+
 <h2 dir="auto" tabindex="-1">DOCUMENTOS NECESARIOS</h2>
 
 <B>1. Datasheeet pic18f45k50 (Microchip)</B>
@@ -26,6 +27,7 @@ Se explica dicha PCB con mayor detalle en el siguiente link :
 <B>4. MPLAB XC8 Users' Guide for Embedded Engineers</B>
 - https://ww1.microchip.com/downloads/en/DeviceDoc/MPLAB%20XC8%20C%20Compiler%20UG%20EE%20DS50002400C%20.pdf
 
+
 <h2 dir="auto" tabindex="-1">UTILITARIOS NECESARIOS</h2>
 
 <B>1. IDE de Desarrollo MPLABX v5.45 (Entorno de Desarrollo)</B>
@@ -35,6 +37,7 @@ Se explica dicha PCB con mayor detalle en el siguiente link :
 -https://www.microchip.com/content/dam/mchp/documents/DEV/ProductDocuments/SoftwareTools/xc8-v2.32-full-install-windows-x64-installer.exe
 
 <B>3. Software de Simulacion Proteus 8.10 SP0 Pro</B>
+
 
 # AUTOR
 - Candiotti L. Sergio (Lima, Peru)
