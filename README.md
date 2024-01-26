@@ -6,7 +6,7 @@ con algunas simulaciones hechas en Proteus y armados en placa PCB prototipo como
 
 Se explica dicha PCB con mayor detalle en el siguiente link : 
 
-<h2 dir="auto" tabindex="-1">HERRAMIENTAS NECESARIAS<p><strong>&nbsp;</strong></p>
+<h2 dir="auto" tabindex="-1">HERRAMIENTAS NECESARIAS</h2>
 <B>1. Programador PICK3</B>
 - https://www.microchip.com/en-us/development-tool/pg164130
 ![PICKIT3](https://github.com/SerCandio/Microcontrolador-PIC18F/assets/106831539/79b7c3ea-d900-4dcd-ad3d-e94944990a69)
