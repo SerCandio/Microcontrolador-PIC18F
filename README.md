@@ -6,24 +6,12 @@ con algunas simulaciones hechas en Proteus y armados en placa PCB prototipo como
 
 Se explica dicha PCB con mayor detalle en el siguiente link : 
 
-# Herramientas de HW necesarias
+<h2 dir="auto" tabindex="-1">HERRAMIENTAS NECESARIAS<p><strong>&nbsp;</strong></p>
 <B>1. Programador PICK3</B>
 - https://www.microchip.com/en-us/development-tool/pg164130
 ![PICKIT3](https://github.com/SerCandio/Microcontrolador-PIC18F/assets/106831539/79b7c3ea-d900-4dcd-ad3d-e94944990a69)
 
-
-
-# UTILITARIOS NECESARIOS
-<B>1. IDE de Desarrollo MPLABX v5.45 (Entorno de Desarrollo)</B>
--https://ww1.microchip.com/downloads/en/DeviceDoc/MPLABX-v5.45-windows-installer.exe
-
-<B>2. Compilador XC8</B> 
--https://www.microchip.com/content/dam/mchp/documents/DEV/ProductDocuments/SoftwareTools/xc8-v2.32-full-install-windows-x64-installer.exe
-
-<B>3. Software de Simulacion Proteus 8.10 SP0 Pro</B>
-
-
-# DOCUMENTOS NECESARIOS
+DOCUMENTOS NECESARIOS
 <B>1. Datasheeet pic18f45k50 (Microchip)</B>
 - https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/PIC18F2X_45K50-30000684B.pdf
   
@@ -35,6 +23,15 @@ Se explica dicha PCB con mayor detalle en el siguiente link :
 
 <B>4. MPLAB XC8 Users' Guide for Embedded Engineers</B>
 - https://ww1.microchip.com/downloads/en/DeviceDoc/MPLAB%20XC8%20C%20Compiler%20UG%20EE%20DS50002400C%20.pdf
+
+UTILITARIOS NECESARIOS
+<B>1. IDE de Desarrollo MPLABX v5.45 (Entorno de Desarrollo)</B>
+-https://ww1.microchip.com/downloads/en/DeviceDoc/MPLABX-v5.45-windows-installer.exe
+
+<B>2. Compilador XC8</B> 
+-https://www.microchip.com/content/dam/mchp/documents/DEV/ProductDocuments/SoftwareTools/xc8-v2.32-full-install-windows-x64-installer.exe
+
+<B>3. Software de Simulacion Proteus 8.10 SP0 Pro</B>
 
 # AUTOR
 - Candiotti L. Sergio (Lima, Peru)
