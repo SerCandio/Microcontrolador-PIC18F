@@ -37,7 +37,7 @@ Se explica dicha PCB con mayor detalle en el siguiente link :
 -https://www.microchip.com/content/dam/mchp/documents/DEV/ProductDocuments/SoftwareTools/xc8-v2.32-full-install-windows-x64-installer.exe
 
 <B>3. Software de Simulacion Proteus 8.10 SP0 Pro</B>
+-https://mega.nz/file/eNBXmSzC#9DQ8Iye3f9wbREyBtZ8hJ3s0-_faMks2lAoWm-3I_sU
 
-
-# AUTOR
+<h2 dir="auto" tabindex="-1">AUTOR</h2>
 - Candiotti L. Sergio (Lima, Peru)
