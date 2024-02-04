@@ -3,9 +3,10 @@ En este ejemplo se explicara rapidamente acerca de los bits de configuracion en 
 
 <h2 dir="auto" tabindex="-1">Nota:</h2>El uC PIC debe tener conectado entre sus pines <B>RA6</B> y <B>RA7</B> un oscilador de cristal de 16MHz, a 
 fin de poder establecer una frecuencia de osiclacion de 48MHz (nos permitira hacer uso del puerto USB incorporado en la PCB: <B>Mini PIC TRAINER</B>)
-tal como se muestra a continuacion(ver datasheet pagina 29, Figura 3-1):
+tal como se muestra a continuacion(ver <B><AHREF="https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/PIC18F2X_45K50-30000684B.pdf">datasheet</A></B> pagina 29, Figura 3-1):
 
 ![image](https://github.com/SerCandio/Microcontrolador-PIC18F/assets/106831539/95431540-8f03-4091-b3fc-2b3281ce65f0)
+<p><B><I>Figura 1.- Confguracion del oscilador primario, datasheet p.29</I></B></p>
 
 <h2 dir="auto" tabindex="-1">Pasos:</h2>
 <B>1.</B> En el proyecto de PORT_IO.X , nos vamos a <B><I>Window / Tarjet Memoery Views / Configuration bits</I></B> y se muestra la pestaña:
