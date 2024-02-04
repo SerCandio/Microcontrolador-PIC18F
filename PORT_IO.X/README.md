@@ -31,6 +31,10 @@ tal como se muestra a continuacion(ver datasheet pagina 29, Figura 3-1):
 <B>6.</B> Al dar en <B>Run Simulation</B> observara que el LED va a parpadear y el osciloscopio virtual mostrara:
 ![image](https://github.com/SerCandio/Microcontrolador-PIC18F/assets/106831539/83749c86-1f81-4d15-a6fe-3add1bdb1a82)
 
+<B>7.</B> Si implementamos en nuestra placa entrenadora de PIC<B><A HREF="https://github.com/SerCandio/Mini-PIC18F-TRAINER">Mini-PIC18F-TRAINER</A></B> nos queda como:
+
+(video funcionamiento!!)
+
 <h2 dir="auto" tabindex="-1">Conclusion:</h2>
 Lo anterior se comprueba que el FOSC esta corriendo a 48MHz, dando una base de tiempo de delay de instruccion para poder producir un retardo de 1 segundo
 
