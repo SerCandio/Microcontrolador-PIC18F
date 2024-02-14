@@ -745,8 +745,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> -> 0 `i `l `ul
 ]
 "46 ./RTOS.h
-[; ;./RTOS.h: 46: TCB_t taskList[2];
-[v _taskList `S706 ~T0 @X0 -> 2 `i e ]
+[; ;./RTOS.h: 46: TCB_t taskList[4];
+[v _taskList `S706 ~T0 @X0 -> 4 `i e ]
 "4 RTOS.c
 [; ;RTOS.c: 4: extern uint8_t xTaskCreate(const char *pcName, uint16_t xPriority, const uint32_t pvTaskRateMs, void (*pvTaskCode)(void)){
 [v _xTaskCreate `(uc ~T0 @X0 1 ef4`*Cuc`us`Cul`*F6010 ]
@@ -769,7 +769,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;RTOS.c: 11:     printf("Creando Tarea\r\n");
 [e ( _printf :s 1C ]
 "13
-[; ;RTOS.c: 13:     while(i <=2)
+[; ;RTOS.c: 13:     while(i <=4)
 [e $U 708  ]
 [e :U 709 ]
 "14
@@ -840,8 +840,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 }
 [e :U 708 ]
 "13
-[; ;RTOS.c: 13:     while(i <=2)
-[e $ <= -> _i `i -> 2 `i 709  ]
+[; ;RTOS.c: 13:     while(i <=4)
+[e $ <= -> _i `i -> 4 `i 709  ]
 [e :U 710 ]
 "38
 [; ;RTOS.c: 38:     return ret ;
@@ -950,10 +950,10 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;RTOS.c: 89:          CDCTxService();
 [e ( _CDCTxService ..  ]
 "91
-[; ;RTOS.c: 91:         for(i = 0; i<=2; i++)
+[; ;RTOS.c: 91:         for(i = 0; i<=4; i++)
 {
 [e = _i -> -> 0 `i `us ]
-[e $ <= -> _i `ui -> -> 2 `i `ui 728  ]
+[e $ <= -> _i `ui -> -> 4 `i `ui 728  ]
 [e $U 729  ]
 [e :U 728 ]
 "92
@@ -992,7 +992,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;RTOS.c: 107:         }
 }
 [e ++ _i -> -> 1 `i `us ]
-[e $ <= -> _i `ui -> -> 2 `i `ui 728  ]
+[e $ <= -> _i `ui -> -> 4 `i `ui 728  ]
 [e :U 729 ]
 }
 "114

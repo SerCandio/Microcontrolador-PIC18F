@@ -19,7 +19,7 @@
 #include "ConfBits_RealBoardPLL.h"
 #include "INTERRUPT_Controller.h"
 
-#define MAX_NUM_TASKS           2  /*Numero maximo de tareas del sistema*/
+#define MAX_NUM_TASKS           4  /*Numero maximo de tareas del sistema*/
 #define MAX_NAME_LEN            10
 
 

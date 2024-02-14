@@ -9373,7 +9373,7 @@ typedef struct{
 
 
 
-TCB_t taskList[2];
+TCB_t taskList[4];
 
 
 
@@ -9397,6 +9397,16 @@ static void PORT_Init(void);
 # 24 "main.c"
 void Task1(void);
 void Task2(void);
+
+
+
+
+static char USB_writeBuffer[64];
+
+
+
+
+void USB_CDC_Tx_String(char *s);
 
 
 int main(int argc, char** argv) {
@@ -9433,8 +9443,8 @@ void Task1(void){
 
 
 
-    printf("Hello World, Millis= %lu\r\n", Millis_Get());
-
+    sprintf(USB_writeBuffer, "Hello World, Millis= %lu\r\n", Millis_Get());
+    USB_CDC_Tx_String(USB_writeBuffer);
 }
 
 void Task2(void){
@@ -9443,4 +9453,17 @@ void Task2(void){
 
 
     LATDbits.LATD0=~LATDbits.LATD0;
+}
+
+
+
+
+
+
+void USB_CDC_Tx_String(char *s){
+
+if((cdc_trf_state == 0)==1){
+    putsUSBUSART(s);
+}
+
 }

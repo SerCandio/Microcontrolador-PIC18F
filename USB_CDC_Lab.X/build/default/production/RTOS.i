@@ -9366,7 +9366,7 @@ typedef struct{
 
 
 
-TCB_t taskList[2];
+TCB_t taskList[4];
 
 
 
@@ -9399,7 +9399,7 @@ extern uint8_t xTaskCreate(const char *pcName, uint16_t xPriority, const uint32_
 
     printf("Creando Tarea\r\n");
 
-    while(i <=2)
+    while(i <=4)
     {
         if(strlen(pcName) > 10)
         {
@@ -9466,7 +9466,7 @@ extern void vTaskStartScheduler(void){
 
          CDCTxService();
 
-        for(i = 0; i<=2; i++)
+        for(i = 0; i<=4; i++)
         {
             if(taskList[i].taskInList ==1)
             {

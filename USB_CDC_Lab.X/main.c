@@ -24,6 +24,16 @@
 void Task1(void);
 void Task2(void);
 
+/*
+ * Global variables
+ */
+static char USB_writeBuffer[64];
+
+/*
+ * Function Prototypes
+ */
+void USB_CDC_Tx_String(char *s);
+
 
 int main(int argc, char** argv) {
     /* 
@@ -59,8 +69,8 @@ void Task1(void){
     /* 
      * This Task will execute every : TASK1_POLLRATE_MS 
      */
-    printf("Hello World, Millis= %lu\r\n", millis());
-    
+    sprintf(USB_writeBuffer, "Hello World, Millis= %lu\r\n", millis());
+    USB_CDC_Tx_String(USB_writeBuffer);
 }
 
 void Task2(void){
@@ -69,6 +79,19 @@ void Task2(void){
      */
     
     USER_LED_Toogle();
+}
+
+/*Sub-Functions code
+ */
+/* 
+ * Enviar un string en RAM a traves del USB-CDC
+ */
+void USB_CDC_Tx_String(char *s){
+ //Run application code.
+if(USBUSARTIsTxTrfReady()==true){
+    putsUSBUSART(s);
+}
+
 }
 
 
