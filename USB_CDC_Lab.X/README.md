@@ -35,7 +35,7 @@ En cuanto conectemos nuestra <B><A HREF="https://github.com/SerCandio/Mini-PIC18
 [![VIDEO](https://img.youtube.com/vi/mNRTedm4bW8/0.jpg)](https://youtu.be/mNRTedm4bW8)
 
 <h2 dir="auto" tabindex="-1">Observacion:</h2>
-La comunicacion USB-CDC no admite simulacion en Prtoeus (por el momento)
+La comunicacion USB-CDC no admite simulacion en Proteus (por el momento)
 
 <h2 dir="auto" tabindex="-1">Anexo:</h2>
 El PIC18F45K50 al tener la comunicacion USB CDC incorporada, puede comportarse como "device" conectado hacia un dispositivo celular Android, podemos ver otro ejemplo en el siguiente video donde es esto posible
