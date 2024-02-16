@@ -30,12 +30,15 @@ En necesario tambien que tenga el <B><A HREF="https://www.chiark.greenend.org.uk
 <h2 dir="auto" tabindex="-1">PRUEBAS Y FUNCIONAMIENTO</h2>
 En cuanto conectemos nuestra <B><A HREF="https://github.com/SerCandio/Mini-PIC18F-TRAINER">placa entrenadora</A></B> con el ejecutable <B><A HREF="https://github.com/SerCandio/Microcontrolador-PIC18F/blob/main/USB_CDC_Lab.X/dist/default/production/USB_CDC_Lab.X.production.hex">USB_CDC_Lab.X.production.hex</A></B> grabado en ella y el puerto USB Tipo B conectado a un puerto USB de la PC.
 
-En el siguiente <B><A HREF="https://youtu.be/mNRTedm4bW8">video</A></B> incrustado podemos ver una prueba de funcionamiento de la placa entrenadora(orientado a MultiTasking RTOS):
+<p>En el siguiente <B><A HREF="https://youtu.be/mNRTedm4bW8">video</A></B> incrustado podemos ver una prueba de funcionamiento de la placa entrenadora(orientado a MultiTasking RTOS):</p>
 
 [![VIDEO](https://img.youtube.com/vi/mNRTedm4bW8/0.jpg)](https://youtu.be/mNRTedm4bW8)
 
-<h2 dir="auto" tabindex="-1">Conclusion:</h2>
-
 <h2 dir="auto" tabindex="-1">Observacion:</h2>
 La comunicacion USB-CDC no admite simulacion en Prtoeus (por el momento)
+
+<h2 dir="auto" tabindex="-1">Anexo:</h2>
+El PIC18F45K50 al tener la comunicacion USB CDC incorporada, puede comportarse como "device" conectado hacia un dispositivo celular Android, podemos ver otro ejemplo en el siguiente video donde es esto posible
+
+https://github.com/SerCandio/Microcontrolador-PIC18F/assets/106831539/77cf1b5a-6b96-4f3d-a8bb-419bcd9aff71
 
